@@ -3,6 +3,7 @@ body{
 box-sizing: border-box;
 margin: 0;
 line-height: 1.5;
+font-size: larger;
 }
 .side{
     background-color: hsl(32, 8%, 90%);
@@ -13,6 +14,7 @@ flex-direction: column;
 position: fixed;
 text-align: center;
 font-size: 15px;
+border-right: 5px solid lightblue;
 }
 
 
@@ -45,10 +47,10 @@ a:focus{
     border-bottom: 2px solid white;
 }
 .icons{
-    margin-top: 290px;
+    margin-top: 230px;
 }
 .icons i{
-    margin:10px
+    margin:15px
 }
 
 
@@ -68,7 +70,7 @@ background-size: cover;
 height: 100vh;
 color: hsl(180, 24%, 96%);
 opacity: 0;
-animation: fade-in 3s ease forwards;
+animation: fade-in 6s ease forwards;
 
 
 margin-bottom:0px;
@@ -161,7 +163,7 @@ margin-bottom:0px;
 .fade-in{
     opacity: 0;
 
-    animation: fade-in 3s ease forwards;
+    animation: fade-in 6s ease forwards;
 }
 @keyframes fade-in{
     to{
